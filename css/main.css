@@ -116,8 +116,25 @@ title {
 .featured-work h1 {
   color: #7e7e7e;
 }
+
 .featured-work__article {
+  margin-top: .5em;
   display: inline-block;
   background-color: orange;
-  padding:1em;
+  padding: 3px;
+  min-height: 75px;
+}
+
+.featured-work__article img{
+  max-width: 70px;
+  max-height:70px;
+  float: left;
+  margin-right: 10px;
+}
+
+.truncate {
+  width: 60%; 
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
