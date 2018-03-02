@@ -9,6 +9,10 @@
     min-height: 200px;
     padding: 1em;
   }
+
+  .header__name {
+    font-size: 3em;
+  }
 }
 
 @media screen and (min-width: 850px) {
