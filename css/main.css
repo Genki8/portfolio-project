@@ -2,7 +2,8 @@
   box-sizing: border-box;
   position: relative;
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+
+  line-height: 1.2em;
   margin: 0px;
   padding: 0px;
 }
@@ -11,6 +12,7 @@ html, body {
   margin: 0;
   padding: 0;
   width: 100%;
+  font-size: 16px;
 }
 
 .container {
@@ -52,7 +54,7 @@ title {
   max-height: 100px;
   max-width: 100px;
   padding-top: 10px;
-  padding-left: 10px; 
+  padding-left: 10px;
   order:-10;
 }
 
@@ -81,14 +83,39 @@ title {
   background-color: green;
 }
 
-.big-picture {
-  background-color: blue;
+
+/*
+ *
+ * center-piece
+ *
+ */
+
+
+.center-piece {
+  /* background-color: blue; */
+  position: relative;
+  background-image: url("../img/computer-screen.png");
+  background-size: cover;
+  background-position: top;
+  min-height: 250px;
 }
+
+
+/*
+ *
+ * featured-work
+ *
+ */
+
 
 .featured-work {
   background-color: yellow;
+  margin-top: .5em;
 }
 
+.featured-work h1 {
+  color: #7e7e7e;
+}
 .featured-work__article {
   display: inline-block;
   background-color: orange;
