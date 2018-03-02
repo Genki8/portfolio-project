@@ -4,8 +4,8 @@
   font-family: 'Open Sans', sans-serif;
 
   line-height: 1.2em;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 html, body {
@@ -69,14 +69,14 @@ title {
 
 .header__name {
   font-size: 2em;
-  margin-bottom: 0px;
+  margin-bottom: 0;
   margin-top: 10px;
   color: #7e7e7e;
 }
 
 .header__jobtitle {
-  margin-top: 0em;
-  margin-bottom: 0em;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .nav {
@@ -109,31 +109,54 @@ title {
 
 
 .featured-work {
-  background-color: yellow;
+  /* background-color: yellow; */
   margin-top: .5em;
 }
 
-.featured-work h1 {
+.featured-work__title {
   color: #7e7e7e;
+  border-bottom: 1px solid #7e7e7e;
+  line-height: 24px;
+  width: 100%;
 }
 
 .featured-work__article {
   margin-top: .5em;
   display: inline-block;
-  background-color: orange;
+  background-color: white;
   padding: 3px;
   min-height: 75px;
+  align-content: center;
+  /* border-radius: 15px; */
+  border: 1px solid #7e7e7e;
+  /* background-image: url("../img/white-marble-500.jpg");
+  background-size: cover; */
+  box-shadow: 2px 2px 5px black;
 }
 
-.featured-work__article img{
-  max-width: 70px;
+.featured-work__article__img {
+  max-width: 100px;
   max-height:70px;
   float: left;
   margin-right: 10px;
+  border-radius: 15px;
 }
 
+.featured-work__name {
+  font-size: 2em;
+  line-height: 1.2em;
+}
+
+.featured-work__link {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 80%;
+  color: black;
+}
+
+
 .truncate {
-  width: 60%; 
+  width: 60%;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;

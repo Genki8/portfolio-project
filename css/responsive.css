@@ -1,13 +1,26 @@
-@media screen and (max-width: 659px) {
-
-
-}
-
 @media screen and (min-width: 660px) {
   .featured-work__article {
     width: 33%;
-    min-height: 200px;
+    min-height: 300px;
     padding: 1em;
+    border: none;
+    background: none;
+    text-align: center;
+  }
+
+  .featured-work__title {
+    font-size: 2em;
+    line-height: 1.5em;
+    box-shadow:
+  }
+
+  .featured-work__article img {
+    width: 100%;
+    max-width: none;
+    max-height: 150px;
+    float: none;
+    margin-right: 0px;
+    border-radius: 0px;
   }
 
   .header__name {
