@@ -15,9 +15,18 @@ html, body {
   font-size: 16px;
 }
 
+/* .wrapper {
+  background: url(../img/panoramic-large.jpg);
+  background-size: cover;
+} */
+
+/* TODO: set up wrapper for a background with a transparent container*/
+
 .container {
   display: flex;
   flex-wrap: wrap;
+  /* background-color: rgba(255, 255, 255, 0.5);
+  box-shadow: 2px 2px 5px black; */
 }
 
 .box {
@@ -109,13 +118,12 @@ title {
 
 
 .featured-work {
-  /* background-color: yellow; */
   margin-top: .5em;
 }
 
 .featured-work__title {
-  color: #7e7e7e;
-  border-bottom: 1px solid #7e7e7e;
+  color: #333;
+  border-bottom: 1px solid #333;
   line-height: 24px;
   width: 100%;
 }
@@ -127,10 +135,6 @@ title {
   padding: 3px;
   min-height: 75px;
   align-content: center;
-  /* border-radius: 15px; */
-  border: 1px solid #7e7e7e;
-  /* background-image: url("../img/white-marble-500.jpg");
-  background-size: cover; */
   box-shadow: 2px 2px 5px black;
 }
 
@@ -153,7 +157,6 @@ title {
   font-size: 80%;
   color: black;
 }
-
 
 .truncate {
   width: 60%;
