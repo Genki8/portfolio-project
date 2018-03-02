@@ -1,0 +1,86 @@
+* {
+  box-sizing:border-box;
+  position: relative;
+  font-family: 'Open Sans', sans-serif;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  width: 100%;
+  min-height: 150px;
+}
+
+title {
+  display: none;
+}
+
+/*
+ *
+ * header
+ *
+ */
+
+.header {
+  background-color: #fff;
+  min-height: 100px;
+  border-bottom: 3px solid #7e7e7e;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+
+.header__logo {
+  max-height: 100px;
+  max-width: 100px;
+  margin-top: 10px;
+  margin-left: 10px;
+  order:-10;
+}
+
+.header__text {
+  width: 60%;
+  order: -8;
+  float: right;
+  display: inline-block;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.header__name {
+  font-size: 3em;
+  margin-bottom: 0px;
+  margin-top: 10px;
+  color: #7e7e7e;
+}
+
+.header__jobtitle {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
+.nav {
+  background-color: green;
+}
+
+.big-picture {
+  background-color: blue;
+}
+
+.featured-work {
+  background-color: yellow;
+}
+
+.featured-work__article {
+  display: inline-block;
+  background-color: orange;
+  padding:1em;
+}
