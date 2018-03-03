@@ -1,3 +1,16 @@
+@media screen and (max-width: 740px) {
+  .featured-work {
+    justify-content: center;
+  }
+
+  .featured-work__article {
+    border-radius: 8px;
+    width: 95%;
+  }
+
+}
+
+
 @media screen and (min-width: 740px) {
   .header__logo__img{
     width: 99px;
@@ -11,7 +24,7 @@
   .featured-work {
     justify-content: center;
   }
-  
+
   .featured-work__article {
     width: 33%;
     min-height: 300px;
@@ -51,7 +64,8 @@
 }
 
 @media screen and (min-width: 900px) {
-  main.container {
+
+  body.container {
     width: 900px;
     margin-left: auto;
     margin-right: auto;
