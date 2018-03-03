@@ -1,14 +1,20 @@
 * {
   box-sizing: border-box;
   position: relative;
-  font-family: 'Open Sans', sans-serif;
-
+  font-family: "Open Sans", sans-serif;
   line-height: 1.2em;
   margin: 0;
   padding: 0;
 }
 
-html, body {
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 16px;
+}
+
+body {
   margin: 0;
   padding: 0;
   width: 100%;
@@ -31,7 +37,6 @@ html, body {
 
 .box {
   width: 100%;
-  min-height: 150px;
 }
 
 title {
@@ -46,32 +51,33 @@ title {
 
 .header {
   background-color: #fff;
-  min-height: 100px;
+  max-height: 120px;
   border-bottom: 3px solid #7e7e7e;
   margin-bottom: 10px;
   vertical-align: middle;
-  display: inline-block;
+  overflow: hidden;
 }
+
 
 .header__logo {
   width: 20%;
-  display: inline-block;
-}
-
-.header__logo img {
-  width: 100%;
-  max-height: 100px;
-  max-width: 100px;
+  /* height: auto; */
+  /* max-height: 100px;
+  max-width: 100px; */
   padding-top: 10px;
   padding-left: 10px;
   order:-10;
+
+}
+
+.header__logo__img{
+  width: 66px;
+  height: 66px;
 }
 
 .header__text {
   width: 80%;
   order: -8;
-  float: right;
-  display: inline-block;
   padding-right: 10px;
   text-align: right;
 }
@@ -103,7 +109,7 @@ title {
 .center-piece {
   /* background-color: blue; */
   position: relative;
-  background-image: url("../img/computer-screen.png");
+  background-image: url(../img/computer-screen.png);
   background-size: cover;
   background-position: top;
   min-height: 250px;
@@ -118,7 +124,7 @@ title {
 
 
 .featured-work {
-  margin-top: .5em;
+  margin-top: 0.5em;
 }
 
 .featured-work__title {
@@ -129,21 +135,22 @@ title {
 }
 
 .featured-work__article {
-  margin-top: .5em;
-  display: inline-block;
+  margin-top: 0.5em;
   background-color: white;
   padding: 3px;
   min-height: 75px;
   align-content: center;
-  box-shadow: 2px 2px 5px black;
+  box-shadow: 1px 1px 5px gray;
 }
 
-.featured-work__article__img {
-  max-width: 100px;
-  max-height:70px;
-  float: left;
+.featured-work-img-box{
+  width: 75px;
   margin-right: 10px;
-  border-radius: 15px;
+}
+.featured-work__article__img {
+  width: 75px;
+  height: 75px;
+  border-radius: 5px;
 }
 
 .featured-work__name {
